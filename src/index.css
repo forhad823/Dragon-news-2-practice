@@ -2,7 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
-} 
+}
 
 @import "tailwindcss";
 @plugin "daisyui" {
@@ -19,7 +19,6 @@
   --color-accent: #706f6f;
   --color-forhad: blue;
 }
-
 
 a.active {
   @apply bg-base-300;
