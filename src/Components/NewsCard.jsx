@@ -25,7 +25,7 @@ const NewsCard = ({ news }) => {
     details.length > 180 ? details.slice(0, 180) + "..." : details;
 
   return (
-    <div className="card bg-base-100 shadow-xl w-[560px] rounded-2xl overflow-hidden border border-base-200">
+    <div className="card bg-base-100 shadow-xl w-full rounded-2xl overflow-hidden border border-base-200">
       {/* Author Row */}
       <div className="flex items-center justify-between px-5 pt-5 pb-3">
         <div className="flex items-center gap-3">
